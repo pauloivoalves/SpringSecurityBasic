@@ -1,0 +1,5 @@
+br\ufc\si\controller\HelloWorldController.class
+springSecurityBasic\SecurityConfiguration.class
+br\ufc\si\controller\HelloWorldConfiguration.class
+springSecurityBasic\SecurityWebApplicationInitializer.class
+br\ufc\si\controller\SpringMvcInitializer.class
