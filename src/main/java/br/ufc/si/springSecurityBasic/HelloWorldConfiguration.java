@@ -13,13 +13,13 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan(basePackages = "br.ufc.si")
 public class HelloWorldConfiguration {
 
-	@Bean(name="HelloWorld")
-	public ViewResolver viewResolver() {
-		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-		viewResolver.setViewClass(JstlView.class);
-		viewResolver.setPrefix("/WEB-INF/views/");
-		viewResolver.setSuffix(".jsp");
-
-		return viewResolver;
-	}
+	@Bean
+    public ViewResolver viewResolver() {
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        viewResolver.setViewClass(JstlView.class);
+        viewResolver.setPrefix("/WEB-INF/");
+        viewResolver.setSuffix(".jsp");
+ 
+        return viewResolver;
+    }
 }

@@ -1,0 +1,8 @@
+br\ufc\si\controller\HelloWorldController.class
+br\ufc\si\springSecurityBasic\SecurityWebApplicationInitializer.class
+br\ufc\si\model\Role.class
+br\ufc\si\model\User.class
+br\ufc\si\springSecurityBasic\SecurityConfiguration.class
+br\ufc\si\model\Privilege.class
+br\ufc\si\springSecurityBasic\HelloWorldConfiguration.class
+br\ufc\si\springSecurityBasic\SpringMvcInitializer.class
